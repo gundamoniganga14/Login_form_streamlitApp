@@ -58,6 +58,7 @@ st.markdown("""
 
 # Database configuration
 DB_HOST = "localhost"
+port=3307,
 DB_USER = "root"
 DB_PASSWORD = "Ganga@1407_"
 DB_NAME = "form_db"
