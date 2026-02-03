@@ -76,10 +76,10 @@ def get_db_connection():
     """Create database connection"""
     try:
         conn = mysql.connector.connect(
-            host=DB_HOST,
-            user=DB_USER,
-            password=DB_PASSWORD,
-            database=DB_NAME
+            host="localhost",
+            user="root",
+            password="Ganga@1407_",
+            database="form_db"
         )
         return conn
     except Error as e:
